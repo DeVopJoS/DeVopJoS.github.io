@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Challenge Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+            <div class="section-1">
+                <img src="img/Logo.png">
+                <div class="text">
+                    <textarea name="txt_texto" id="txt_texto" placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+
+                <div class="options">
+                    <p>Solo letras Mayúsculas y sin acentos</p>
+                    <div class="btn-op">
+                        <button id="btnencriptar" class="btn encriptar">Encriptar!</button>
+                        <button id="btndesencriptar" class="btn desencriptar">Desencriptar!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="caja-resp" id="resp">
+                    <p id="txt_texto_r"></p>
+                    
+                </div>
+
+                <button id="btnCopiar" class="btn copiar">Copiar</button>
+            </div>
+        </div>
+        
+        <footer>
+            Diseña con ♥ Por Josue Mamani A. Visita mi portafolio para ver mas proyectos
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
